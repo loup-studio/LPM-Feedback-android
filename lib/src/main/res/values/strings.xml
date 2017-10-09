@@ -1,0 +1,7 @@
+<resources>
+    <string name="lpm_feedback_loading">Veuillez patienter…</string>
+    <string name="lpm_feedback_send">ENVOYER</string>
+    <string name="lpm_feedback_error">Une erreur s\'est produite, veuillez ré-essayer.</string>
+    <string name="lpm_feedback_error_blank_fields">Veuillez faire votre choix</string>
+    <string name="lpm_feedback_success">Merci! Votre avis a bien été pris en compte.</string>
+</resources>

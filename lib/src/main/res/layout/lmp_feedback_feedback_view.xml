@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:parentTag="android.widget.ScrollView">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lpm_feedback_feedback_view_rating_hint_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:gravity="center_horizontal" />
+
+        <lpm.feedback.RatingsView
+            android:id="@+id/lpm_feedback_feedback_view_ratings_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp" />
+
+        <TextView
+            android:id="@+id/lpm_feedback_feedback_view_feedback_hint_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="30dp"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:gravity="center_horizontal" />
+
+        <EditText
+            android:id="@+id/lpm_feedback_feedback_view_feedback_editxt"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_weight="1"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:background="@drawable/lpm_feedback_bg_rate_comment"
+            android:gravity="top"
+            android:inputType="text|textMultiLine|textCapSentences"
+            android:minHeight="150dp"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/lpm_feedback_feedback_view_feedback_send_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="30dp"
+            android:background="#3e7cad"
+            android:text="@string/lpm_feedback_send"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</merge>
